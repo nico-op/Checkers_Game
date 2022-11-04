@@ -88,7 +88,7 @@ void Checkerpiece::drawCheckers(sf::RenderWindow& window, const vector<Checkerpi
 			{
 				//circle.setTexture(&crownTexture);
 				circle.setOutlineThickness(-10);
-				circle.setOutlineColor(sf::Color::Yellow); //Marca con un borde amarillo la ficha reina
+				circle.setOutlineColor(sf::Color::Yellow);
 			}
 			else
 			{

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/gabrielwolf/Downloads/checkers-master/cmake-build-debug/
+cmake_ninja_workdir = /home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Checkers
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /home/gabrielwolf/Downloads/checkers-master/cmake-build-de
 
 build cmake_object_order_depends_target_Checkers: phony || CMakeFiles/Checkers.dir
 
-build CMakeFiles/Checkers.dir/src/AI.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/AI.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/AI.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/AI.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/AI.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -57,7 +57,7 @@ build CMakeFiles/Checkers.dir/src/AI.cpp.o: CXX_COMPILER__Checkers_RelWithDebInf
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/CheckerGame.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/CheckerGame.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/CheckerGame.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/CheckerGame.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/CheckerGame.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -65,7 +65,7 @@ build CMakeFiles/Checkers.dir/src/CheckerGame.cpp.o: CXX_COMPILER__Checkers_RelW
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Checkerboard.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Checkerboard.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Checkerboard.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Checkerboard.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Checkerboard.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -73,7 +73,7 @@ build CMakeFiles/Checkers.dir/src/Checkerboard.cpp.o: CXX_COMPILER__Checkers_Rel
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Checkerpiece.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Checkerpiece.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Checkerpiece.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Checkerpiece.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Checkerpiece.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -81,7 +81,7 @@ build CMakeFiles/Checkers.dir/src/Checkerpiece.cpp.o: CXX_COMPILER__Checkers_Rel
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Checkers.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Checkers.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Checkers.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Checkers.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Checkers.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -89,7 +89,7 @@ build CMakeFiles/Checkers.dir/src/Checkers.cpp.o: CXX_COMPILER__Checkers_RelWith
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Main.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Main.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Main.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Main.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Main.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -97,7 +97,7 @@ build CMakeFiles/Checkers.dir/src/Main.cpp.o: CXX_COMPILER__Checkers_RelWithDebI
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Moveable.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Moveable.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Moveable.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Moveable.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Moveable.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -105,7 +105,7 @@ build CMakeFiles/Checkers.dir/src/Moveable.cpp.o: CXX_COMPILER__Checkers_RelWith
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Player.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Player.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Player.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Player.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Player.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -113,7 +113,7 @@ build CMakeFiles/Checkers.dir/src/Player.cpp.o: CXX_COMPILER__Checkers_RelWithDe
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/SoundManager.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/SoundManager.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/SoundManager.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/SoundManager.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/SoundManager.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -121,7 +121,7 @@ build CMakeFiles/Checkers.dir/src/SoundManager.cpp.o: CXX_COMPILER__Checkers_Rel
   TARGET_COMPILE_PDB = CMakeFiles/Checkers.dir/
   TARGET_PDB = Checkers.pdb
 
-build CMakeFiles/Checkers.dir/src/Square.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/gabrielwolf/Downloads/checkers-master/src/Square.cpp || cmake_object_order_depends_target_Checkers
+build CMakeFiles/Checkers.dir/src/Square.cpp.o: CXX_COMPILER__Checkers_RelWithDebInfo /home/nico/Escritorio/ProyectoII_DatosII/Checkers/src/Square.cpp || cmake_object_order_depends_target_Checkers
   DEP_FILE = CMakeFiles/Checkers.dir/src/Square.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++11
   OBJECT_DIR = CMakeFiles/Checkers.dir
@@ -153,7 +153,7 @@ build Checkers: CXX_EXECUTABLE_LINKER__Checkers_RelWithDebInfo CMakeFiles/Checke
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/gabrielwolf/Downloads/checkers-master/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/ccmake -S/home/gabrielwolf/Downloads/checkers-master -B/home/gabrielwolf/Downloads/checkers-master/cmake-build-debug
+  COMMAND = cd /home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/ccmake -S/home/nico/Escritorio/ProyectoII_DatosII/Checkers -B/home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -165,7 +165,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/gabrielwolf/Downloads/checkers-master/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/gabrielwolf/Downloads/checkers-master -B/home/gabrielwolf/Downloads/checkers-master/cmake-build-debug
+  COMMAND = cd /home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/nico/Escritorio/ProyectoII_DatosII/Checkers -B/home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -181,7 +181,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/gabrielwolf/Downloads/checkers-master/cmake-build-debug
+# Folder: /home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug
 
 build all: phony Checkers
 

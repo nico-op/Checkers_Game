@@ -16,8 +16,10 @@
 #include <iostream>
 #include <string>
 
+//Clase Player
 class Player
 {
+    //Declaración de varialbes
 private:
 	const int number;
 	bool turn;
@@ -25,7 +27,7 @@ private:
 	std::vector<Checkerpiece*> checkers;
 protected:
 public:
-	Player(const int, const bool);
+	Player(const int, const bool);//constructor
 	~Player();
 
 	int findCheckerIndex(const int&, const int&);

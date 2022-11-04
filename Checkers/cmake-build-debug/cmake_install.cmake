@@ -1,4 +1,4 @@
-# Install script for directory: /home/gabrielwolf/Downloads/checkers-master
+# Install script for directory: /home/nico/Escritorio/ProyectoII_DatosII/Checkers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gabrielwolf/Downloads/checkers-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nico/Escritorio/ProyectoII_DatosII/Checkers/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,5 +1,7 @@
 #include "Square.hpp"
 
+
+//Crear un cuadrado con los parametros de columna y fila
 Square :: Square(const sf::Vector2f& area, int row, int col, int idNumber) 
 	: sf::RectangleShape(area),
 	row(row),

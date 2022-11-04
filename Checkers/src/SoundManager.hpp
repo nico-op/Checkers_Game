@@ -14,8 +14,10 @@
 #include <iostream>
 #include <string> // for strings
 
+//Clase SoundManager
 class SoundManager
 {
+    //Declaración de variables
 private:
     SoundManager();
     ~SoundManager();

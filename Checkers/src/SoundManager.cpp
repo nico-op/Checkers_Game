@@ -10,7 +10,7 @@ SoundManager::SoundManager()
 
 SoundManager::~SoundManager()
 {
-    cout << "Releasing audio memory... ";
+    cout << "Liberando espacio... ";
     for(unsigned int i = 0; i < soundBufferArray.size(); ++i)
     {
         soundArray[i]->stop();
@@ -21,16 +21,16 @@ SoundManager::~SoundManager()
     soundBufferArray.clear();
     cout << "OK" << endl;
 }
-
+//Permite dar acceso global a la instancia de SoundManaager
  SoundManager* SoundManager::getSoundManager()
  {
    static SoundManager singleton;
    return &singleton;
  }
-
+ //Permite añadir el sonido para el juego
 void SoundManager::addSound(string fileName)
 {
-    cout << "Loading sound: " << fileName << "...\n";
+    cout << "Cargando sonido: " << fileName << "...\n";
     sf::SoundBuffer* newSoundBuffer = new sf::SoundBuffer;
     newSoundBuffer->loadFromFile(fileName);
     soundBufferArray.push_back(newSoundBuffer);
@@ -40,12 +40,14 @@ void SoundManager::addSound(string fileName)
     soundArray.push_back(newSound);
 }
 
+//Permite reproducir el sonido
 void SoundManager::playSound(int n)
 {
     if (soundArray[n]->getStatus() != sf::Sound::Playing)
         soundArray[n]->play();
 }
 
+//Permite detener el sonido que se está reproduciendo
 void SoundManager::stopSound(int n)
 {
     if (soundArray[n]->getStatus() == sf::Sound::Playing)

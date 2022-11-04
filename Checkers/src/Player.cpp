@@ -10,17 +10,17 @@ Player::Player(const int number, const bool isHuman)
 	, number(number)
 {
 	vector<Checkerpiece*> checkers; 
-	// reserve memory space for 12 checkers
+	// reserva espacio de memoria para 12 piezas
 	checkers.reserve(MAX_CHECKERS_PER_TEAM);
 }
 
 Player::~Player()
 {
-	// erase the entire checker vector
+	// borrar por completo el vector perteneciente a checkers
 	checkers.erase(checkers.begin(), checkers.end());
 }
 
-/* Display the checkers for this player */
+/* Muestra en pantalla las piezas de checkers */
 void Player::displayCheckers() 
 {
 	cout << endl <<"Display Player# " << this->getNumber() << "'s active checkers" << endl;
@@ -30,49 +30,54 @@ void Player::displayCheckers()
 			"King Row: " << (*it)->getKingRow() << " King: " << (*it)->getKing() << endl;
 }
 
-// add a checker to the player's checkers vector
+// añade una pieza checker a la lista del jugador
 void Player::addChecker(Checkerpiece* checkerpiece)
 {
-	checkers.push_back(checkerpiece);
+	checkers.push_back(checkerpiece);//añade la pieza a la lista checkers
 }
 
-// returns the index # of a checkerpiece in the checkers vector by (x, y) position
+
+// retorna el index del número de un pieza checker en el vector general de checkers tomando la posición(x,y)
 int Player::findCheckerIndex(const int& x, const int& y)
 {
 	for(unsigned int i = 0; i != this->checkers.size(); ++i)
 		if(checkers[i]->getPosition().x == x && checkers[i]->getPosition().y == y)
 			return i;
-	return -1; // checker not found
+	return -1; // pieza checker no encontrada
 }
 
-// finds a checkerpiece in the checkers vector by comparing square position and checker position
+
+// encuentra un pieza de checkers en la lista general de checkers comparando la posición del cuadro y la posición de la pieza de checkers
 int Player::findCheckerIndex(const Square* tempSquare)
 {
 	for(unsigned int i = 0; i < checkers.size(); ++i)
 		if((checkers[i]->getPosition().x == tempSquare->getPosition().x) && (checkers[i]->getPosition().y == tempSquare->getPosition().y))
 			return i;
-	return -1; // checker not found
+	return -1; // pieza de checker no encontrada
 }
 
-// delete a checker
+
+// elimina una pieza de checker
 void Player::deleteChecker(const int& deleteIndex)
 {
-	this->checkers.erase(this->checkers.begin() + deleteIndex);
+    this->checkers.erase(this->checkers.begin() + deleteIndex);
 }
 
-// delete all the checkers
+
+// elimina a todos los checkers
 void Player::deleteAllCheckers()
 {
 	this->checkers.erase(this->checkers.begin(), this->checkers.end());
 }
 
-// getters
+// actuliza el vector donde se guarda las piezas de checkers
 vector<Checkerpiece*>& Player::getCheckersVector()
 {
 	return checkers;
 }
 
 // return the Checkerpiece* at the index
+// retorna la pieza de checker en el indice
 Checkerpiece* Player::getChecker(const int& index)
 {
 	return this->checkers.at(index);
@@ -83,6 +88,7 @@ bool Player::getTurn()
 	return turn;
 }
 
+//Verifica que si el jugador está jugando, además de llegar un conteo de las jugadas
 int Player::getCounter()
 {
 	return checkers.size();
@@ -98,7 +104,7 @@ const int Player::getNumber()
 	return number;
 }
 
-// setters
+// Indica a quien de las partes le toca hacer un movimiento
 void Player::setTurn(const bool& turn)
 {
 	this->turn = turn;
